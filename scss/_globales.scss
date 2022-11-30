@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+    }
+
+img {
+        padding: 2rem;
+        max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+body {
+    background-image: $bg-body;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav {
+    margin-top: 2rem;
+}
+
+h1 {
+    color: red;
+    font-family: $fuente-titulos;
+    font-size: $fuente-grande;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+p {
+    font-family: $fuente-parrafos;
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+h2{
+    color: white;
+    margin-bottom: 2rem;
+    font-family: $fuente-titulos;
+    font-size: $fuente-chica;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: $fuente-titulos;
+}

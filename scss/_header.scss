@@ -1,0 +1,39 @@
+.header-pagina {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-imagen {
+    height: 12rem;
+}
+
+.header-imagen:hover {
+    transform: scale(1.5);
+}
+
+.lista-navegacion li{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.lista-navegacion li:hover{
+    background-color: black;
+    transition: all 1s;
+}
+
+.lista_navegacion-bootstrap {
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.lista_navegacion-bootstrap a {
+    color: red;
+}
+
+.lista_navegacion-bootstrap a:hover {
+    color: white;
+    background-color: black;
+    transition: all 1s;
+}
