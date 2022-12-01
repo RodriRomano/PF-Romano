@@ -5,6 +5,5 @@
 }
 
 .div__imagen {
-    width: 900px;
-    height: 700px;
+    @include sizes (900px, 700px);
 }

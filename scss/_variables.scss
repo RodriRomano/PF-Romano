@@ -11,3 +11,19 @@ $pantalla-chica: 575px;
 $pantalla-mediana: 767px;
 $pantalla-grande: 992px;
 $pantalla-lg: 1200px;
+
+/*Separacion*/
+$separacion: 5rem;
+
+/*MIXIN*/
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*MIXIN CON PARAMETROS*/
+@mixin sizes ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
