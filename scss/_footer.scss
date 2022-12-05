@@ -14,13 +14,29 @@
     margin: calc($separacion - 2rem);
 }
 
+.footer__redes {
+    display: inline;
+}
+
 .footer__div svg {
     @include sizes (50px, 50px);;
 }
 
 @media screen and (max-width:$pantalla-chica){
     .footer__div {
-        @include flex-column-center
+        @include flex-column-center;
+        iframe {
+            height: 200px;
+            width: 300px;
+        }
+        .footer__redes {
+            display: flex;
+            flex-direction: row;
+        }
+        svg {
+            width: 20px;
+            height: 20px;
+        }
     }
 }
 

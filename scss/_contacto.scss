@@ -9,3 +9,9 @@ input:focus {
     width: 300px;
     outline: none;
 }
+
+@media screen and (max-width:$pantalla-chica) {
+    form {
+        text-align: center;
+    }
+}

@@ -7,3 +7,10 @@
 .div__imagen {
     @include sizes (900px, 700px);
 }
+
+@media screen and (max-width:$pantalla-chica) {
+    .div__imagen {
+        width: 500px;
+        height: 500px;
+    }
+}
